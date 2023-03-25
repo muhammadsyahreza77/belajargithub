@@ -1,0 +1,29 @@
+#include <iostream>
+#include <conio.h>
+using namespace std;
+int main()
+{
+int masuk,keluar,jumlah,biaya;
+
+cout<<"\t\t\tMENGHITUNG BIAYA PARKIR\n";
+cout<<"\n\nBIAYA PARKIR = Rp.50000,- Untuk 2 Jam pertama \n";
+cout<<"Jam Selanjutnya tambah Rp.10000,- per jamnya \n";
+cout<<"\n\nMASUKKAN JAM MASUK KENDARAAN ANDA = ";cin>>masuk;
+cout<<"\n\nMASUKKAN JAM KELUAR KENDARAAN ANDA = ";cin>>keluar;
+if(keluar>=masuk)
+{
+jumlah=keluar-masuk;}
+else{
+ jumlah=(12-keluar) + masuk;
+}
+if(jumlah>2)
+{biaya=50000+((jumlah-2)*10000);}
+else
+{biaya=50000;}
+cout<<"\n\nBiaya Parkir Kendaraan Anda Adalah Rp =",cout<<biaya;
+
+
+getch();
+
+
+}
