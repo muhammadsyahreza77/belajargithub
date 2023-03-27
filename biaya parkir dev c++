@@ -3,7 +3,7 @@
 using namespace std;
 int main()
 {
-int masuk,keluar,jumlah,biaya;
+float masuk,keluar,jumlah,biaya;
 
 cout<<"\t\t\tMENGHITUNG BIAYA PARKIR\n";
 cout<<"\n\nBIAYA PARKIR = Rp.60000,- Untuk 2 Jam pertama \n";
